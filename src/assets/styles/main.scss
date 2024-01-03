@@ -1,4 +1,13 @@
 @import "npm:@fortawesome/fontawesome-free/css/all.css";
 @tailwind base;
 @tailwind components;
+
+.card {
+    @apply p-6 max-w-80 mx-auto bg-white rounded-xl shadow items-center space-x-4;
+}
+
+.photo-card {
+    @apply h-48 w-48 mx-auto;
+}
+
 @tailwind utilities;
