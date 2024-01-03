@@ -6,8 +6,8 @@
     @apply p-6 max-w-80 mx-auto bg-white rounded-xl shadow items-center space-x-4;
 }
 
-.photo-card {
-    @apply h-48 w-48 mx-auto;
+.card-none-line {
+    @apply flex flex-col p-6 max-w-sm mx-auto bg-white items-center space-x-4;
 }
 
 @tailwind utilities;
